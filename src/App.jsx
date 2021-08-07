@@ -1,9 +1,13 @@
+import { FaSearch } from 'react-icons/fa';
 import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
+    <div className="search active">
+      <input type="text" className="input" placeholder="Search..." />
+      <button className="btn">
+        <FaSearch />
+      </button>
     </div>
   );
 }
